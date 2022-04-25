@@ -1,0 +1,9 @@
+.example-card {
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .example-card {
+    padding: 10px 100px;
+  }
+}

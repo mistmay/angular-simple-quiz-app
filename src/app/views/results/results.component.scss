@@ -1,0 +1,14 @@
+.example-card {
+  padding: 10px;
+}
+
+li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+@media (min-width: 768px) {
+  .example-card {
+    padding: 10px 100px;
+  }
+}

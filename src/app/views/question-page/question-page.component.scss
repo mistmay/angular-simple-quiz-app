@@ -1,0 +1,31 @@
+.example-card {
+  padding: 10px;
+
+  mat-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+}
+
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 10px 0;
+
+  mat-card {
+    border: 1px solid lightgray;
+    transition: none;
+
+    &:hover {
+      border: 1px solid blue;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .example-card {
+    padding: 10px 100px;
+  }
+}
